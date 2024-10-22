@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+:root {
+  --blue: #00b8b8;
+  --light-blue: rgb(13 110 253);
+  --black: #333;
+  --white: #fff;
+  --light-color: #666;
+  --light-bg: #eee;
+  --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0.1);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+}
+
+section {
+  padding: 5rem 2rem;
+}
+
+/* Header Styles */
+.header {
+  border-bottom: var(--border);
+  padding: 2rem 10%;
+}
+
+.header_navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_brand {
+  font-size: 2rem;
+  color: rgb(13 110 253);
+}
+
+.header_brand span {
+  color: var(--blue);
+}
+
+.header_nav {
+  flex-grow: 1;
+  justify-content: center;
+  font-size: 1.7rem;
+  color: var(--black);
+}
+
+.header_nav-item {
+  margin-right: 20px;
+}
+
+.header_nav-link {
+  margin: 0.1rem;
+  font-size: 1.7rem;
+  color: var(--black);
+}
+
+.header_nav-link:hover {
+  color: var(--blue);
+}
+
+.header_btn-appointment {
+  display: inline-block;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--blue);
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: var(--white);
+}
+
+.header_btn-appointment:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+/* Header Styles END */
+
+/* Home */
+#home {
+  background-image: url("imgs/dentalbg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+}
+
+#home .content {
+  padding-top: 220px;
+  margin-left: 56px;
+}
+
+#home .content h3 {
+  font-size: 50px;
+  color: var(--black);
+}
+
+#home .content p {
+  margin-top: 10px;
+  color: var(--black);
+  font-size: 1.7rem;
+}
+/* Home END*/
+
+/*Services*/
+
+.service-title h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.service-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+
+.card-body {
+  color: var(--black);
+  text-align: center;
+  background-color: var(--light-bg);
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  min-height: 315px;
+  padding: 15px 30px 30px;
+  font-weight: 400;
+}
+
+.card-img-top {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  padding: 15px;
+  border: none;
+  box-shadow: none; /* Remove shadows if any */
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 250%;
+  text-decoration: none;
+}
+
+.card-text {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+.text-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--blue);
+  text-align: center;
+}
+
+.learn-more {
+  border-bottom: 1px solid var(--blue);
+  padding-bottom: 2px;
+  line-height: 0.8;
+  display: inline;
+}
+
+.service-link {
+  text-align: center;
+  color: var(--blue);
+  font-weight: bold;
+  margin-top: 60px;
+  font-size: 3rem;
+}
